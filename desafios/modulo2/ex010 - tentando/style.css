@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body {
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to top, #22733F, #3DD973);
+    margin: auto;
+
+}
+
+#titulo {
+    text-align: center;
+    font-size: 2em;
+    color:white;
+    padding-top: 10px;
+    margin-right: 30px;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 1em;
+    color:white;
+    font-weight: lighter;
+    
+    
+}
+
+#menu {
+    color:white;
+    font-weight: bolder;
+    
+}
+
+.cor{
+    color:white;
+}
+
+#conteudo {
+    width: 800px;
+    background-color: white;
+    margin: auto;
+    border-top: 30px;
+}

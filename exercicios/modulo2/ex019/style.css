@@ -1,0 +1,33 @@
+@charset "UFT-8";
+
+body {
+    background-color: bisque;
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+}
+
+#treinamento {
+    background-color: hwb(14 0% 0% / 0.507);
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+
+.basico {
+    text-align: left;
+    background-color: rgb(231, 228, 26);
+    color: blueviolet;
+
+}
+
+.intermediario {
+    background-color: brown;
+}
+.avancado {
+    background-color: aquamarine;
+}
+
