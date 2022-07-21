@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Tabela Part 2</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            
+        }
+
+        td, th {
+            border: 1px solid black;
+        }
+
+         thead > tr > th {
+            padding: 10px;
+            color: white;
+            background-color: gray;
+            
+        }   
+            
+        .nota {
+            padding: 3px;
+        }   
+            
+
+         tbody > tr > th {
+            padding: 10px;
+            
+        }
+
+   
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2" scope="rowgroup">Área</th>
+                <th rowspan="2" scope="rowgroup">Disciplinas</th>
+                <th colspan="2" scope="colgroup" >Notas</th>
+                <th rowspan="2" scope="rowgroup">Média</th>
+            <tr>
+                <th scope="col" class="nota">Notas 1</th>
+                <th scope="col" class="nota">notas 2</th>
+            </tr>    
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup" height="120px">Exatas</th>
+                <td>Matemática</td>
+                <td style="text-align: center;">0.0</td>
+                <td style="text-align: center;">0.0</td>
+                <td style="text-align: center;">0.0</td>
+            </tr>
+            <tr>
+                <td>Fisica</td>
+                <td style="text-align: center;">0.0</td>
+                <td style="text-align: center;">0.0</td>
+                <td style="text-align: center;">0.0</td>
+            </tr>
+            <tr>
+                <td>Quimica</td>
+                <td style="text-align: center;">0.0</td>
+                <td style="text-align: center;">0.0</td>
+                <td style="text-align: center;">0.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td style="text-align: center;">0.0</td>
+                <td style="text-align: center;">0.0</td>
+                <td style="text-align: center;">0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" scope="col" style="text-align: left; background-color: gray; color: white;">Médias de Exatas</th>
+                <td style="text-align: center; background-color: gray; color: white;">0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="rowgroup" height="50px">Humanas</th>
+                <td>Historia</td>
+                <td style="text-align: center;">0.0</td>
+                <td style="text-align: center;">0.0</td>
+                <td style="text-align: center;">0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td style="text-align: center;">0.0</td>
+                <td style="text-align: center;">0.0</td>
+                <td style="text-align: center;">0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" scope="col" style="text-align: left; background-color: gray; color: white;">Medias Humanas</th>
+                <td style="text-align: center; background-color: gray; color: white;">0.0</td>
+            </tr>
+
+
+        </tbody>
+   </table>
+</body>
+</html>
